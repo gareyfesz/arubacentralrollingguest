@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from pycentral.base import ArubaCentralBase
 from pprint import pprint
-from utility.central_info import central_info
+from config import central_info
 from passwordgen import password
 from config import apiPath
 from config import apiData
